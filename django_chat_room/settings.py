@@ -26,7 +26,7 @@ SECRET_KEY = '$l(uwk+&%46k1e)g@gr*=9-zd^2e0ww9(7zv-67h6penm+g!d)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]', 'elliott-king-django-chat-room---m.dev.staging.shipyard.pizza']
 
 
 # Application definition
